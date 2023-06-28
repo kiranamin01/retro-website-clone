@@ -1,0 +1,53 @@
+@font-face {
+    font-family: domain;
+    src: url(./domain.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color:#c4bcb3;
+    position: relative;
+
+}
+#nav{
+    height: 100px;
+    background-color: red;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav img {
+    height: 30px;
+    width: 30%;
+}
+
+#nav h5 {
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i {
+    width: 30%;
+    text-align: right;
+
+}
